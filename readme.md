@@ -55,24 +55,36 @@ python3 mapping_computation.py
 
 
 
+```markdown
 Project Structure
+```
+
 challenge/
-├── camera.py                       # PiCamera2 streaming & recording examples
-├── car.py                          # Car class integrating sensors and drivers
-├── detect_300400_backgrounddiff.py # Main background-difference & navigation script
-├── infrared.py                     # Infrared line-tracking sensor module
-├── motor.py                        # DC motor driver interface
-├── parameter.py                    # Parameter file generator/updater
-├── params.json                     # Hardware version configuration
-├── rpi_ledpixel.py                 # WS281X LED strip driver
-├── servo.py                        # Multi‐servo control via pigpio
-├── spi_ledpixel.py                 # SPI LED strip driver
-├── ultrasonic.py                   # Ultrasonic distance sensor module
-├── homography_data.npz             # Precomputed homography matrix
+├── camera.py                       \# PiCamera2 streaming \& recording examples
+├── car.py                          \# Car class integrating sensors and drivers
+├── detect_300400_backgrounddiff.py \# Main background-difference \& navigation script
+├── infrared.py                     \# Infrared line-tracking sensor module
+├── motor.py                        \# DC motor driver interface
+├── parameter.py                    \# Parameter file generator/updater
+├── params.json                     \# Hardware version configuration
+├── rpi_ledpixel.py                 \# WS281X LED strip driver
+├── servo.py                        \# Multi‐servo control via pigpio
+├── spi_ledpixel.py                 \# SPI LED strip driver
+├── ultrasonic.py                   \# Ultrasonic distance sensor module
+├── homography_data.npz             \# Precomputed homography matrix
 ├── calculate_homography/
-│   ├── mapping_computation.py      # Homography calibration & mapping
-│   └── video.h264                  # Sample test video
-└── result/                         # Example outputs
-    ├── challenge_view.png
-    ├── dbg_*.png
-    └── navigation_map.png
+│   ├── mapping_computation.py      \# Homography calibration \& mapping
+│   └── video.h264                  \# Sample test video
+└── result/                         \# Example outputs
+├── challenge_view.png
+├── dbg_*.png
+└── navigation_map.png
+
+```
+
+## Authors
+- Dawei Wang 
+- Jianqiang Wang  
+- Shaohua Guan 
+- Xiaojing Zhao 
+- Xueyun Liu
