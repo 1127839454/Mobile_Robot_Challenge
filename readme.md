@@ -56,9 +56,6 @@ python3 mapping_computation.py
 
 
 ```markdown
-Project Structure
-```
-
 challenge/
 ├── camera.py                       \# PiCamera2 streaming \& recording examples
 ├── car.py                          \# Car class integrating sensors and drivers
