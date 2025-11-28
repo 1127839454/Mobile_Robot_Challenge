@@ -79,9 +79,3 @@ challenge/
 
 ```
 
-## Authors
-- Dawei Wang 
-- Jianqiang Wang  
-- Shaohua Guan 
-- Xiaojing Zhao 
-- Xueyun Liu
